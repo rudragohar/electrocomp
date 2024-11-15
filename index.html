@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectronicsComp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">ElectronicsComp</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="categories.html">Rate Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to ElectronicsComp</h1>
+            <p>Your one-stop shop for all electronic components!</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-container">
+                <div class="product-box">
+                    <img src="./images/resistor.jpg" alt="Resistor">
+                    <h3>Resistor</h3>
+                    <p>High-quality resistors for your circuit needs.</p>
+                    <p><strong>Price:</strong> $0.50</p>
+                    <button onclick="purchaseItem('Resistor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/capacitor.jpeg" alt="Capacitor">
+                    <h3>Capacitor</h3>
+                    <p>Durable and reliable capacitors for all projects.</p>
+                    <p><strong>Price:</strong> $1.00</p>
+                    <button onclick="purchaseItem('Capacitor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/arduino.jpeg" alt="Arduino">
+                    <h3>Arduino Uno</h3>
+                    <p>Microcontroller board to bring your ideas to life.</p>
+                    <p><strong>Price:</strong> $25.00</p>
+                    <button onclick="purchaseItem('Arduino Uno')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/light.jpeg" alt="LED">
+                    <h3>LED Lights</h3>
+                    <p>Bright and energy-efficient LEDs.</p>
+                    <p><strong>Price:</strong> $0.20</p>
+                    <button onclick="purchaseItem('LED Lights')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/breadboard.jpeg" alt="Breadboard">
+                    <h3>Breadboard</h3>
+                    <p>Essential for building and testing circuits.</p>
+                    <p><strong>Price:</strong> $5.00</p>
+                    <button onclick="purchaseItem('Breadboard')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/jumper.jpeg" alt="Jumper Wires">
+                    <h3>Jumper Wires</h3>
+                    <p>Flexible wires for connecting components.</p>
+                    <p><strong>Price:</strong> $3.00</p>
+                    <button onclick="purchaseItem('Jumper Wires')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/transistor.jpeg" alt="Transistor">
+                    <h3>Transistor</h3>
+                    <p>Reliable transistors for amplifying signals.</p>
+                    <p><strong>Price:</strong> $0.80</p>
+                    <button onclick="purchaseItem('Transistor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/chip.jpeg" alt="IC">
+                    <h3>IC Chips</h3>
+                    <p>Integrated circuits for advanced projects.</p>
+                    <p><strong>Price:</strong> $2.00</p>
+                    <button onclick="purchaseItem('IC Chips')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/Motor.jpeg" alt="DC Motor">
+                    <h3>DC Motor</h3>
+                    <p>High-speed motor for your robotics projects.</p>
+                    <p><strong>Price:</strong> $15.00</p>
+                    <button onclick="purchaseItem('DC Motor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/rechargable.jpeg" alt="Battery">
+                    <h3>Rechargeable Battery</h3>
+                    <p>Long-lasting rechargeable batteries.</p>
+                    <p><strong>Price:</strong> $12.00</p>
+                    <button onclick="purchaseItem('Rechargeable Battery')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/diodes.jpeg" alt="Diode">
+                    <h3>Diodes</h3>
+                    <p>Efficient diodes for circuit protection.</p>
+                    <p><strong>Price:</strong> $0.40</p>
+                    <button onclick="purchaseItem('Diodes')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/potentiometer.jpeg" alt="Potentiometer">
+                    <h3>Potentiometer</h3>
+                    <p>Adjustable resistors for fine-tuning circuits.</p>
+                    <p><strong>Price:</strong> $1.50</p>
+                    <button onclick="purchaseItem('Potentiometer')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/relay.jpeg" alt="Relay">
+                    <h3>Relay Module</h3>
+                    <p>Control high-power devices with ease.</p>
+                    <p><strong>Price:</strong> $5.50</p>
+                    <button onclick="purchaseItem('Relay Module')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/toggle.jpeg" alt="Switch">
+                    <h3>Toggle Switch</h3>
+                    <p>Durable switches for seamless operations.</p>
+                    <p><strong>Price:</strong> $2.00</p>
+                    <button onclick="purchaseItem('Toggle Switch')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/display.jpeg" alt="LCD">
+                    <h3>LCD Display</h3>
+                    <p>High-resolution LCD screens for output display.</p>
+                    <p><strong>Price:</strong> $10.00</p>
+                    <button onclick="purchaseItem('LCD Display')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/sensor.jpeg" alt="Sensor">
+                    <h3>Temperature Sensor</h3>
+                    <p>Accurate sensors for measuring temperature.</p>
+                    <p><strong>Price:</strong> $7.00</p>
+                    <button onclick="purchaseItem('Temperature Sensor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/buzzer.jpeg" alt="Piezo Buzzer">
+                    <h3>Piezo Buzzer</h3>
+                    <p>Compact and efficient buzzer modules.</p>
+                    <p><strong>Price:</strong> $1.20</p>
+                    <button onclick="purchaseItem('Piezo Buzzer')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/sink.jpeg" alt="Heat Sink">
+                    <h3>Heat Sink</h3>
+                    <p>Effective cooling solution for power devices.</p>
+                    <p><strong>Price:</strong> $4.00</p>
+                    <button onclick="purchaseItem('Heat Sink')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/servo.jpeg" alt="Servo Motor">
+                    <h3>Servo Motor</h3>
+                    <p>Precise motor for mechanical systems.</p>
+                    <p><strong>Price:</strong> $20.00</p>
+                    <button onclick="purchaseItem('Servo Motor')">Buy Now</button>
+                </div>
+                <div class="product-box">
+                    <img src="./images/power.jpeg" alt="Power Supply">
+                    <h3>Power Supply</h3>
+                    <p>Reliable power sources for electronics.</p>
+                    <p><strong>Price:</strong> $30.00</p>
+                    <button onclick="purchaseItem('Power Supply')">Buy Now</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="testimonies">
+            <h2>What Our Customers Say</h2>
+            <div class="testimony-container">
+                <div class="testimony-box">
+                    <p>"Great service and amazing quality!"</p>
+                    <h4>- Alex</h4>
+                </div>
+                <div class="testimony-box">
+                    <p>"My go-to place for all electronic parts."</p>
+                    <h4>- Jamie</h4>
+                </div>
+                <div class="testimony-box">
+                    <p>"Quick delivery and superb customer support."</p>
+                    <h4>- Sam</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 ElectronicsComp. All rights reserved.</p>
+        <div class="footer-animation"></div>
+    </footer>
+</body>
+</html>

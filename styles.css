@@ -1,0 +1,338 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin: 0 1rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+header .nav-links a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #2a9d8f;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Products Section */
+#products {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#products h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+}
+
+.product-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-box h3 {
+    margin: 0.5rem 0;
+}
+
+.product-box button {
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-box button:hover {
+    background: #f4a261;
+}
+
+/* Testimonies Section */
+#testimonies {
+    padding: 2rem 1rem;
+    background: #264653;
+    color: #fff;
+    text-align: center;
+}
+
+.testimony-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.testimony-box {
+    background: #2a9d8f;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.testimony-box h4 {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: relative;
+}
+
+footer .footer-animation {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #e76f51, #f4a261, #2a9d8f);
+    animation: moveGradient 3s infinite;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #264653, #2a9d8f);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header .nav-links li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+
+header .nav-links a:hover {
+    background: #e76f51;
+    color: #fff;
+}
+
+/* Contact Us Section */
+.contact-section {
+    background: linear-gradient(135deg, #2a9d8f, #264653);
+    padding: 4rem 1rem;
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #e76f51;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #f4a261;
+}
+
+/* Categories Section */
+.rate-us-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    background: linear-gradient(135deg, #e76f51, #2a9d8f);
+    color: white;
+    height: 600px;
+}
+
+.rate-us-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.rate-us-form textarea, .rate-us-form select {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.rate-us-form button {
+    background: #264653;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.rate-us-form button:hover {
+    background: #2a9d8f;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #264653, #2a9d8f);
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+
+.about-box {
+    background: white;
+    color: #333;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h2 {
+    color: #e76f51;
+}
+
+.about-box p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #264653;
+    color: white;
+    margin-top: 2rem;
+    margin-top: 0px;
+
+}
